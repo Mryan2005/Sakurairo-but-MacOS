@@ -989,7 +989,7 @@ if( class_exists( 'Sakurairo_CSF' ) ) {
         'type' => 'text',
         'title' => __('Standard Cursor Style','sakurairo_csf'),
         'desc' => __('Apply to global, fill in ".cur" mouse file link','sakurairo_csf'),
-        'default' => 'https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/normal.cur'
+        'default' => './points/default.cur' #https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/normal.cur
       ),
 
       array(
@@ -997,7 +997,7 @@ if( class_exists( 'Sakurairo_CSF' ) ) {
         'type' => 'text',
         'title' => __('Selected Cursor Style','sakurairo_csf'),
         'desc' => __('Apply to multiple styles, fill in ".cur" file link','sakurairo_csf'),
-        'default' => 'https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/No_Disponible.cur'
+        'default' => './points/alternate.cur'
       ),
 
       array(
@@ -1005,7 +1005,7 @@ if( class_exists( 'Sakurairo_CSF' ) ) {
         'type' => 'text',
         'title' => __('Selected Control Unit Cursor Style','sakurairo_csf'),
         'desc' => __('Apply to selected control unit, fill in ".cur" file link','sakurairo_csf'),
-        'default' => 'https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/ayuda.cur'
+        'default' => './points/hand.cur' #https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/ayuda.cur
       ),
 
       array(
@@ -1013,7 +1013,7 @@ if( class_exists( 'Sakurairo_CSF' ) ) {
         'type' => 'text',
         'title' => __('Selected Text Cursor Style','sakurairo_csf'),
         'desc' => __('Apply to selected text, fill in ".cur" file link','sakurairo_csf'),
-        'default' => 'https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/texto.cur'
+        'default' => './points/text.cur' #https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/texto.cur
       ),
 
       array(
@@ -1021,7 +1021,7 @@ if( class_exists( 'Sakurairo_CSF' ) ) {
         'type' => 'text',
         'title' => __('Work Status Cursor Style','sakurairo_csf'),
         'desc' => __('Apply to load control unit, fill in ".cur" file link','sakurairo_csf'),
-        'default' => 'https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/work.cur'
+        'default' => './points/beachball.ani' # https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/work.cur
       ),
 
     )
